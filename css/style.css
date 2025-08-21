@@ -21,6 +21,29 @@ body{
     /* height: 120px; */
     background-color: rgb(0, 0, 0);
 }
+.div-header{
+ display: flex;
+}
+.div-h2{
+margin-bottom: 20px;
+}
+.h-king{
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: rgb(255, 0, 0);
+}
+/* .div-img-king{
+
+} */
+.img-king{
+    margin-left: 30%;
+    width: 130px;
+    height: 120px;
+}
+.div-form{
+    /* margin-left: 50%; */
+}
 .main-king{
     /* width: 100vw; */
     /* height: 60vh; */
@@ -56,10 +79,6 @@ body{
     height: 70px;
 }
 
-
-.div-header{
- display: flex;
-}
 .img-king{
     width: 130px;
     height: 120px;
@@ -70,4 +89,16 @@ body{
 .img-arta{
     height: 20px;
     width: 20px;
+}
+.title-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* فاصله بین عنوان و تاج */
+  font-size: 2rem; /* اندازه عنوان را متناسب با طرح خود تنظیم کنید */
+  /* سایر استایل‌های دلخواهتان */
+}
+
+.crown-icon {
+  width: 1.2em;  /* اندازه تاج نسبت به اندازه متن */
+  height: auto;
 }
